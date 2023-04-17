@@ -1,0 +1,366 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+    .header-nav {
+        display: none;
+    }
+
+    .header-icon {
+
+        display: none;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-images img {
+        margin: 70px 0 0 0;
+    }
+
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-two-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-logo {
+        margin: 0 0 50px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-info h1 {
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 133.69%;
+        color: #1F2E35;
+
+    }
+
+    .hero-info p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+        color: #30444E;
+        margin: 20px 0;
+    }
+
+    .hero-images img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .welcome-browser {
+        width: 350px;
+        height: 350px;
+    }
+
+    .welcome-title h1 {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 106.69%;
+        color: #1F2E35;
+        padding: 20px 0;
+    }
+
+    .welcome-title p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 150%;
+        width: 391px;
+        color: #30444E;
+    }
+    .section-two-product{
+        margin: 20px 0;
+    }
+}
+
+
+@media (max-width:451px) {
+    .section-two-title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 4.69%;
+        padding: 32px 0;
+        color: #1F2E35;
+    }
+    .footer-contact {
+        margin: 0 0 0 0;
+    }
+
+
+
+}
+
+
+@media (max-width: 400px) {
+    #header {
+        padding: 5px 0;
+        background: white;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    }
+    #hero {
+        padding: 40px 0;
+    }
+
+    .hero-info button {
+        width: 114px;
+        height: 36px;
+        background: #EE4248;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        font-weight: 200;
+        font-size: 15px;
+        color: #FFFFFF;
+        cursor: pointer;
+        outline: none;
+    }
+    .hero-images img {
+        width: 300px;
+        height: 300px;
+    }
+    .welcome-browser {
+        width: 300px;
+        height: 300px;
+    }
+    .welcome-title h1 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 93.69%;
+        color: #1F2E35;
+        padding: 10px 0;
+    }
+    .welcome-title p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 140%;
+        width: 365px;
+        color: #30444E;
+        margin: 15px 0;
+    }
+    #section-two {
+        padding: 17px 0;
+    }
+    .section-two-product {
+        margin: 10px 0;
+    }
+    .section-two-product h1 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 102.69%;
+        color: #EE4248;
+        margin: 10px 0;
+    }
+    .section-two-product p {
+        width: 324px;
+        height: 63px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 129%;
+        color: #30444E;
+        margin: 10px 0;
+    }
+    .section-two-product button {
+        width: 89px;
+        height: 27px;
+        background: #EE4248;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 13px;
+        color: #FFFFFF;
+    }
+    .contact-logo h1 {
+        font-weight: 800;
+        font-size: 16px;
+        color: #263238;
+    }
+    .contact-logo p {
+        font-size: 13px;
+        font-weight: 100;
+        height: 10px;
+        width: 300px;
+    }
+    .footer-contact h1 {
+        margin: 0 0 8px 0;
+        padding: 0 89px 0 0;
+
+    }
+    .contact-tr a {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 119.19%;
+        color: #263238;
+    }
+
+}
+
+
+@media (max-width: 376px ) {
+    #header {
+        padding: 5px 0;
+        background: white;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    }
+    .hero-info h1 {
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 115.69%;
+        color: #1F2E35;
+    }
+    .hero-info button {
+        width: 95px;
+        height: 32px;
+        background: #EE4248;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        font-weight: 200;
+        font-size: 12px;
+        color: #FFFFFF;
+        cursor: pointer;
+        outline: none;
+    }
+    .hero-images img {
+        width: 280px;
+        height: 280px;
+    }
+    #hero {
+        padding: 30px 0;
+    }
+    .welcome-browser {
+        width: 280px;
+        height: 280px;
+        padding: 0 0;
+    }
+    .welcome-title h1 {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 93.69%;
+        color: #1F2E35;
+        padding: 10px 0;
+    }
+    .welcome-title p {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 102%;
+        width: 310px;
+        color: #30444E;
+        margin: 0 0 14px 0;
+
+    }
+    .section-two-title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 1.69%;
+        padding: 23px 0;
+        color: #1F2E35;
+    }
+    .contact-logo h1 {
+        margin: 0 0 5px 0;
+    }
+    .footer-contact h1 {
+        margin: -10px 0 8px 0;
+        font-size: 18px;
+    }
+    .footer-contact {
+        margin: 0 0 0 0;
+        padding: 0 89px 0 0;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    #header {
+        padding: 0 0;
+        background: white;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    }
+    .hero-info p {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        color: #30444E;
+        margin: 11px 0;
+    }
+    .hero-info button {
+        width: 80px;
+        height: 26px;
+        background: #EE4248;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        font-weight: 200;
+        font-size: 11px;
+        color: #FFFFFF;
+        cursor: pointer;
+        outline: none;
+    }
+    .hero-images img {
+        width: 260px;
+        height: 230px;
+    }
+    .welcome-browser {
+        width: 260px;
+        height: 250px;
+        padding: 0 0 20px 0;
+    }
+    .welcome-title h1 {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 93.69%;
+        color: #1F2E35;
+        margin: 6px 0;
+    }
+    .welcome-title p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 99%;
+        width: 280px;
+        color: #30444E;
+        margin: 0 0 16px 0;
+    }
+    .section-two-title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.69%;
+        padding: 12px 0;
+        color: #1F2E35;
+    }
+    .section-two-product p {
+        width: 269px;
+        height: 60px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 117%;
+        color: #30444E;
+        margin: 11px 0;
+    }
+    .contact-logo h1 {
+        margin: 0 0 4px 0;
+    }
+
+}
+
+
+
+
